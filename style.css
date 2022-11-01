@@ -1,0 +1,51 @@
+* {
+    border: solid pink 1px;
+}
+
+.head {
+    /* background-color: #1F2937;
+    color: white;  */
+    background-color: grey;
+    padding: 30px 200px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.head-banner {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0px 20px; 
+}
+
+.title {
+    display: flex;
+    flex: 1;
+}
+
+.head-list {
+    display: flex;
+    /* justify-content: flex-end; */
+    flex: 1;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.title {
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+
+
+
