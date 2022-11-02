@@ -1,11 +1,11 @@
-* {
+/* * {
     border: solid pink 1px;
-}
+} */
 
 .head {
-    /* background-color: #1F2937;
-    color: white;  */
-    background-color: grey;
+    background-color: #1F2937;
+    color: white; 
+    /* background-color: grey; */
     padding: 30px 200px;
     margin: 0;
 }
@@ -18,12 +18,13 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    /* color: black; */
+    color: white;
 }
 
 .head-banner {
     display: flex;
-    background-color: white;
+    /* background-color: white; */
     justify-content: space-between;
     padding: 0px 20px; 
 }
@@ -38,6 +39,7 @@ a {
     flex: 1;
     gap: 20px;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .title {
@@ -64,13 +66,30 @@ a {
     justify-content: center;
     align-items: center;
     display: flex;
+    border: 1px lightgray solid;
     
 }
 
 h3, p {
     /** this might break in the future add class to this **/ 
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
     
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    transition-duration: 0.4s;
+    
+}
+
+.button:hover {
+    background-color: white;
+    color: #3882f6;
 }
 
 
