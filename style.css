@@ -35,7 +35,6 @@ a {
 
 .head-list {
     display: flex;
-    /* justify-content: flex-end; */
     flex: 1;
     gap: 20px;
     justify-content: flex-end;
@@ -46,6 +45,33 @@ a {
     font-weight: bold;
 }
 
+.head-content {
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+
+.head-left {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0; 
+}
+
+.head-image {
+    width: 2000px;
+    /** you're gonna want to remove these after you find a picture **/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+h3, p {
+    /** this might break in the future add class to this **/ 
+    margin: 0 0 5px 0;
+    
+}
 
 
 
