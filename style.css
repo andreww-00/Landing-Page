@@ -122,8 +122,8 @@ button:hover {
 
 .content-picture {
     border: solid lightblue 2px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .column {
@@ -137,4 +137,31 @@ button:hover {
     margin: 50px 0 50px 0;
 }
 
+.quote {
+    background-color: lightgray;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    
+}
 
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 896px;
+}
+
+.quote-content {
+    font-size: 32px;
+    font-style: italic;
+
+}
+
+.quote-sign {
+    align-self: flex-end; 
+    font-size: 24px;
+    font-weight: bold;
+}
