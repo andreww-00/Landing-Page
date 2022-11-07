@@ -176,3 +176,16 @@ button:hover {
     margin: 50px 450px;
     border-radius: 10px;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 75px;
+}
+
+.footer-text {
+    margin: 0;
+}
