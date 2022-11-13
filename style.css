@@ -2,15 +2,17 @@
     border: solid pink 1px;
 } */
 
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: #F3EEE2
+}
 .head {
-    background-color: #1F2937;
+    background-color: #19241F;
     color: white; 
     /* background-color: grey; */
     padding: 30px 200px;
     margin: 0;
-}
-body {
-    margin:0;
 }
 
 ul {
@@ -22,7 +24,7 @@ ul {
 a {
     text-decoration: none;
     /* color: black; */
-    color: white;
+    color: #E7DFC6;
 }
 
 .head-banner {
@@ -36,6 +38,9 @@ a {
 .title {
     display: flex;
     flex: 1;
+    font-size: 30px;
+    font-weight: bold;
+    color: #E7DFC6;
 }
 
 .head-list {
@@ -44,6 +49,7 @@ a {
     gap: 20px;
     justify-content: flex-end;
     align-items: center;
+    font-size: 20px;
 }
 
 a {
@@ -56,11 +62,6 @@ a:hover {
     border-right: white solid 1px;
 }
 
-.title {
-    font-size: 24px; 
-    font-weight: bold;
-}
-
 .head-content {
     display: flex;
     padding: 20px;
@@ -71,27 +72,38 @@ a:hover {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     margin: 0; 
 }
 
 .head-image {
-    width: 2000px;
     /** you're gonna want to remove these after you find a picture **/
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5%;
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 1px lightgray solid;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     
 }
 
-h3, p {
-    /** this might break in the future add class to this **/ 
-    margin: 0 0 10px 0;
-    
+.head-left h3 {
+    font-size: 50px;
+    color: #E7DFC6;
+    margin: 25px 0 25px 0;
 }
+
+.head-left p {
+    font-size: 25px;
+    color: #E7DFC6;
+    margin-top: 0;
+}
+
 
 button {
-    background-color: #3882f6;
+    background-color: #A0804F;
     color: white;
     /* border: 1px solid #3882f6; */
     font-weight: bold;
@@ -105,40 +117,47 @@ button {
 
 button:hover {
     background-color: white;
-    color: #3882f6;
+    color: #A0804F;
     /* border: 1px solid #3882f6 */
 }
 
 .content {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .content-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 32px;
+    margin-bottom: 10px;
 }
 
 .content-picture {
-    border: solid lightblue 2px;
-    width: 200px;
-    height: 200px;
+    width: 100%; 
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
 .column {
-    max-width: 200px;
+    max-width: 350px;
 
 }
 
 .content-header {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     margin: 50px 0 50px 0;
+    color: #19241F;
+}
+
+.content p {
+    font-size: 20px;
 }
 
 .quote {
-    background-color: lightgray;
+    background-color: #D8BFAC;
     display: flex;
     padding: 50px;
     justify-content: center;
@@ -168,7 +187,7 @@ button:hover {
 
 .action-box {
     display: flex;
-    background-color: lightblue;
+    background-color: #C2B7CC;
     justify-content: space-evenly;
     align-items: center;
     padding: 40px;
@@ -178,7 +197,7 @@ button:hover {
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #19241F;
     display: flex;
     justify-content: center;
     align-items: center;
